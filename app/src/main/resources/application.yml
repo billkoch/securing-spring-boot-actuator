@@ -1,0 +1,12 @@
+logging.level:
+  org.springframework.security: trace
+  io.billkoch: trace
+
+management:
+  port: 8081
+  context-path: /
+
+server:
+  port: 8080
+
+spring.boot.admin.url: http://localhost:8082
